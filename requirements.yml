@@ -1,0 +1,21 @@
+name: isl
+channels:
+        - conda-forge
+        - anaconda
+        - apple
+dependencies:
+    - python=3.11
+    - pip
+    - jupyter
+    - ipykernel
+    - numpy
+    - pandas
+    - scipy
+    - matplotlib
+    - seaborn
+    - scikit-learn
+    - tqdm
+    - requests
+    - pip:
+        - catboost
+        - ISLP
